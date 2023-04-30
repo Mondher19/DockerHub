@@ -43,8 +43,9 @@ const Navbar = (props) => {
                 <NavLink className="nav-link" to="/contact">{t('Contact')}</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/Second">{t('Dashboard')}</NavLink>
-              </li>
+              <a className="nav-link" href="http://localhost:3000/">Documentation</a>
+
+        </li>
             </ul>
 
             <NavLink className="navbar-brand fw-bolder fs-4 mx-auto" to="/">{t('BUILD-LAB')}</NavLink>

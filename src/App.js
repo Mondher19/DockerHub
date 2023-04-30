@@ -25,6 +25,8 @@ import Profile from './components/Profile';
 import EmailForm from './components/ForgotPassword';
 import ReactSwitch from 'react-switch';
 import ProjectsList from './components/ProjectsList';
+import Docs from './components/Docs';
+
 import ConnectToStore from './components/ConnectToStore';
 import Repository from 'github-api/dist/components/Repository';
 
@@ -88,7 +90,8 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/invitation" component={InviteForm} />
         <Route exact path="/ProjectList" component={ProjectsList} />
-      
+       
+        
         <Protectedroute exact path="/payment" component={PaymentForm} auth={auth1}/>
         <Protectedroute exact path="/VerificationCode" component={VerificationCode} auth={auth1}/>
 

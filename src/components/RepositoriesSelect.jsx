@@ -71,7 +71,7 @@ function RepositorySelect(props) {
 
   const [accessToken, setAccessToken] = useState(null);
 
-  const token ="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"
+  const token ="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"
   
   const handleTokenChange = (token) => {
     setAccessToken(token);
@@ -704,7 +704,7 @@ function RepositorySelect(props) {
 
 
   return (
-    <div className="my-comp container-fluid " style={{ width: "90%", height: "90%" }}>
+    <div className="my-comp container-fluid " style={{ width: "130%", height: "100%" }}>
 
       <div class="my-comp row" >
 
